@@ -1,0 +1,12 @@
+tuple1=(1,3,5,7,9)
+print(tuple1)
+tuple2=tuple([2,4,6,8,10,12,12,12])
+print(tuple2[1])
+print(tuple2[1:4])
+tuple2=tuple2+(1,3,5,7,9)
+print(tuple2)
+tuple3=(1,2,3,4,5,6,7,8,9,10)
+tuple4=tuple2+tuple3
+print(tuple4)
+print(len(tuple4))
+print(tuple2.count(12))
